@@ -20,10 +20,11 @@ app.use(express.json());
 
 ////////////// Config //////////////////////////////////////////
 //DB config
-mongoose.connect(keys.MONGODB_URI, {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true,
+    useFindAndModify: false
 });
 
 app.use((req, res, next) => {
