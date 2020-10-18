@@ -2,8 +2,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
 
-const keys = require("./config/keys.js");
-
 
 
 // app config variables
