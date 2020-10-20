@@ -4,9 +4,11 @@
 ## Description
  This is a workout tracker which allows you to view, create and track daily workouts. 
  
+ ## The app is deployed at Heroku:
+https://sc-fitness-tracker.herokuapp.com/
 
  Click the below GIF to go to Youtube to view the full sized video of functionality.
- [![Gif of Employee Management System Functionality](./public/Assets/FitnessTracker.gif)](https://youtu.be/9mr98Y2tY8E/link "Link to full sized video")
+ [![Gif of Fitness Tracker Functionality](./public/Assets/FitnessTracker.gif)](https://youtu.be/9mr98Y2tY8E/link "Link to full sized video")
  
 This project was created using:  Node,, Express, Mongoose, NoSQL
   
